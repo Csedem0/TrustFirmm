@@ -1,0 +1,76 @@
+.settings-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.settings-header {
+  margin-bottom: 60px;
+  font-size: 2em;
+}
+
+.settings-section1 {
+  display: flex;
+  align-items: center;
+  gap: 92px;
+  margin-bottom: 30px;
+}
+
+.settings-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 70px;
+}
+
+.settings-section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 35px;
+}
+
+.settings-section3 {
+  background-color: var(--color-mediumslateblue-100);
+  width: 350px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.settings-section2-list {
+  display: flex;
+  align-items: center;
+}
+
+.settings-section2-list-img {
+  margin-right: 7%;
+}
+
+.settings-section2-list-icon {
+  margin-left: 150px;
+}
+
+.settings-section2-list-icon1 {
+  margin-left: 180px;
+}
+
+.settings-section2-list-icon2 {
+  margin-left: 190px;
+}
+
+.settings-section2-list-icon3 {
+  margin-left: 107px;
+}
+
+.settings-section2-list-icon4 {
+  margin-left: 136px;
+}

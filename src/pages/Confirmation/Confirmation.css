@@ -1,0 +1,50 @@
+.confirmation-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.836);
+}
+
+.confirmation-header {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.confirmation-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmation-img {
+  margin-bottom: 75px;
+}
+
+.confirmation-button {
+  background-color: var(--color-mediumslateblue-100);
+  width: 350px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.confirmation-div {
+  color: white;
+  font-size: 30px;
+}
+
+.transaction-submitted {
+  color: white;
+  margin-bottom: 50px;
+  font-size: 30px;
+}

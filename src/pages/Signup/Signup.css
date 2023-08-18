@@ -1,0 +1,105 @@
+.signup-container {
+  width: 100%;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background-image: linear-gradient(
+      rgba(12, 12, 12, 0.74),
+      rgba(2, 2, 2, 0.925)
+    ),
+    url('/src/img/home.jpeg');
+  background-size: cover;
+}
+
+.signup-header {
+  margin-bottom: 25px;
+  display: flex;
+  gap: 10px;
+}
+
+.signup-login {
+  height: 30px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-form1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px;
+  margin-bottom: 25px;
+}
+
+.signup-form2 {
+  display: flex;
+  gap: 15px;
+}
+
+.signup-form1-divs {
+  color: gray;
+}
+
+.signup-form2-divs {
+  color: gray;
+}
+
+.signup-input {
+  width: 170px;
+  background-color: transparent;
+}
+
+.placeholder {
+  background-color: transparent;
+}
+
+.signup-section {
+  margin-bottom: 25px;
+}
+
+.signup-login-button {
+  background-color: var(--color-mediumslateblue-100);
+  width: 350px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.signup-footer1 {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.signup-haveaccount {
+  color: gray;
+  cursor: pointer;
+}
+
+.signup-signin {
+  color: var(--color-mediumslateblue-100);
+  cursor: pointer;
+}
+
+.signup-signup {
+  color: var(--color-mediumslateblue-100);
+  font-size: 40px;
+}
